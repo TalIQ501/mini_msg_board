@@ -27,8 +27,7 @@ export const messageRouter = (messages) => {
         }
     
         messages.push(newMessage);
-        res.redirect("/")
-
+        res.redirect("/");
     })
 
     return router

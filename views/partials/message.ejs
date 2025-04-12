@@ -1,5 +1,5 @@
 <div class="message">
-    <p class="text"><%= msg.text %></p>
-    <div class="">From: <%= msg.user %></div>
-    <div><%= msg.added %></div>
+    <p class="msg-text"><%= msg.text %></p>
+    <div class="msg-user">From: <%= msg.user %></div>
+    <div class="msg-date"><%= msg.added.toLocaleString() %></div>
 </div>

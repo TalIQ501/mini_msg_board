@@ -3,8 +3,10 @@
 <%- include('./partials/head', { title }) %>
 <body>
     <%- include('./partials/navbar') %>
-    <% messages.forEach(msg => { %>
-        <%- include('./partials/message', { msg }) %>
-    <% }) %>
+    <section>
+        <% messages.forEach(msg => { %>
+            <%- include('./partials/message', { msg }) %>
+        <% }) %>
+    </section>
 </body>
 </html>
