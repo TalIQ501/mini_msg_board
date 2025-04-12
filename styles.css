@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+.no-link,
+.no-link:hover,
+.no-link:focus,
+.no-link:visited
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+nav {
+    gap: 5px;
+}
